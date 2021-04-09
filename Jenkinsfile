@@ -6,7 +6,7 @@ node {
   }
 
   stage('builde image'){
-    app = docker.build("Heyato/pipeline1")
+    app = docker.build("heyato/pipeline1")
   }
 
   stage('Push image'){
